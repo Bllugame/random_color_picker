@@ -5,25 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random color picker</title>
-    <script src="script.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Didact Gothic' rel='stylesheet'>
     <style>
         button {
-            background-color: rgba(240, 250, 255, 0);
             width: 10%;
             height: 50px;
             border-radius: 10px;
-            font-family: 'Didact Gothic';font-size: 22px;
-            left: 50%;
+            font-family: 'Didact Gothic';
+            font-size: 22px;
             position: absolute;
             top: 30%;
             left: 50%;
-            -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
             margin-top: 15px;
         }
         .hex_title {
-            font-family: 'Didact Gothic';font-size: 22px;
+            font-family: 'Didact Gothic';
+            font-size: 22px;
             background-color: #04080B;
             color: white;
             width: 10%;  
@@ -37,5 +35,6 @@
 <body>
     <div id="paragraph" class="hex_title">Color hex</div>
     <button type="button" onclick="randomcolor()">Click me</button>
+    <script src="script.js"></script>
 </body>
 </html>
